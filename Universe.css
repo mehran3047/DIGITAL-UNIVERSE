@@ -142,3 +142,57 @@ footer {
     font-size: 12px;
     letter-spacing: 2px;
 }
+
+/* SECRET TERMINAL */
+
+#terminal {
+    padding: 60px 20px;
+    text-align: center;
+    background: #080808;
+}
+
+#terminal h2 {
+    color: #d4af37;
+    font-size: 28px;
+    letter-spacing: 4px;
+    margin-bottom: 25px;
+}
+
+.terminal-box {
+    max-width: 650px;
+    margin: auto;
+    padding: 25px;
+    background: #111;
+    border: 1px solid #d4af37;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 0 20px rgba(212, 175, 55, 0.15);
+    color: #d4af37;
+}
+
+.terminal-box p {
+    margin-bottom: 12px;
+}
+
+.terminal-input {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.terminal-input span {
+    color: #d4af37;
+}
+
+.terminal-input input {
+    flex: 1;
+    min-width: 120px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #d4af37;
+    color: white;
+    padding: 10px;
+    outline: none;
+}
+
