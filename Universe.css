@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #080808;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 8%;
+    border-bottom: 1px solid #292929;
+}
+
+nav h2 {
+    color: #d4af37;
+    font-size: 28px;
+}
+
+nav h2 span {
+    color: white;
+}
+
+nav p {
+    color: #aaa;
+    letter-spacing: 3px;
+    font-size: 12px;
+    padding-top: 8px;
+}
+
+.hero {
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.tag {
+    color: #d4af37;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-size: clamp(45px, 10vw, 100px);
+    letter-spacing: 8px;
+}
+
+.hero h1 span {
+    color: #d4af37;
+}
+
+.hero h3 {
+    margin: 25px 0;
+    color: #ccc;
+    font-weight: normal;
+}
+
+.description {
+    max-width: 550px;
+    color: #888;
+    line-height: 1.8;
+}
+
+.buttons {
+    margin-top: 35px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.buttons a {
+    padding: 14px 25px;
+    border: 1px solid #d4af37;
+    color: #d4af37;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.buttons a:hover {
+    background: #d4af37;
+    color: black;
+}
+
+section {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+section h2 {
+    color: #d4af37;
+    letter-spacing: 4px;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #111;
+    border: 1px solid #292929;
+    padding: 35px 20px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    border-color: #d4af37;
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #d4af37;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #999;
+    line-height: 1.7;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #777;
+    border-top: 1px solid #292929;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
